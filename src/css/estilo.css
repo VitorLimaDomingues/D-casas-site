@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    background: #00ff7f;
+    background: #66cc66;
     align-items: center;
 }
 
@@ -28,7 +28,6 @@ header nav ul a {
     color: #000;
     text-decoration: none;
     font-size: 1.2em;
-    margin-left: ;
 }
 
 header nav ul a:hover {
@@ -44,4 +43,100 @@ header img {
 .titulo {
     margin-right: 35rem;
     margin-top: 1.5rem;
+}
+
+.tema {
+    width: 539px;
+    display: flex;
+}
+
+.subtitulo {
+    color: #006400;
+    margin-left: 5rem;
+    font-size: 20px;
+}
+
+.underline {
+    margin-left: 5rem;
+}
+
+.paragrafo {
+    font-size: 24px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.logo1 {
+    width: 60px;
+    margin-left: 15rem;
+}
+
+.logo2 {
+    width: 50px;
+    margin-left: 24rem;
+}
+
+.logo3 {
+    width: 50px;
+    margin-left: 24rem;
+}
+
+.paragrafo_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paragrafo_logo1 {
+    width: 20%;
+    margin-left: 5rem;
+    font-size: 150%;
+}
+
+.paragrafo_logo2 {
+    width: 20%;
+    font-size: 150%;
+}
+
+.paragrafo_logo3 {
+    width: 20%;
+    font-size: 150%;
+}
+
+footer {
+    display: flex;
+    height: 200px;
+    background-color: #66cc66;
+}
+
+.subtitulo2 {
+    color: #663300;
+    font-size: 20px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.informacoes {
+    color: #663300;
+    width: 20%;
+    font-size: 20px;
+    margin-left: 20rem;
+    margin-top: 4.2rem;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.instagram {
+    width: 40px;
+    margin-left: 2rem;
+}
+
+.facebook {
+    width: 40px;
+    margin-left: 2rem;
+    margin-bottom: 0.3rem;
 }
