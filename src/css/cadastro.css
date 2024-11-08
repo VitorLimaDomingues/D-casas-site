@@ -36,7 +36,7 @@ header h1 {
     position: relative;
 }
 
-.controle label{
+.controle label {
     display: inline-block;
     color: #041944;
     font-weight: 900;
@@ -61,6 +61,7 @@ header h1 {
 
 .controle.error small{
     flex-direction: column;
+    margin-left: 5px;
     color: #730a0a;
     font-size: 1rem;
     visibility: visible;
@@ -69,7 +70,7 @@ header h1 {
 .controle i {
     position: absolute;
     top: 4px;
-    right: 10px;
+    right: -20px;
     visibility: hidden;
 }
 
@@ -92,6 +93,7 @@ header h1 {
     background: #730a0a;
     color: #fff;
     margin-left: 40px;
+    margin-top: 10px;
 }
 
 .form button:hover {
