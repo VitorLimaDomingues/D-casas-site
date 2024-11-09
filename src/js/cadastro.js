@@ -44,10 +44,14 @@ function checarCampos(){
     // Se o campo "email" estiver vazio
 
     if(emailValor === ""){
-        validarErro(email, "Preencha o campo email")
+        validarErro(email, "Preencha o campo e-mail")
         valida = false // Marca como inválido
 
+    } else if(!emailValor.endsWith(".com")) {
+        validarErro(email,"Preencha o campo e-mail")
+        valida = false // Marca como inválido
     }
+    
     else {
         validarSucesso(email)
     }
@@ -61,7 +65,7 @@ function checarCampos(){
     else if(senhaValor.length < 8)
     {
         validarErro(senha,"A senha deve ter mais que 8 caracteres")
-        valida = false // Marca como inválido
+        valida = false // Marca como inválidoS
     }else {
         validarSucesso(senha)
     }

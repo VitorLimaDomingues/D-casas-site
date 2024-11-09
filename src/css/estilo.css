@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+
 body {
+    font-size: 16px;
     background-color: #f8f8ff;
+    }
 }
 
 header {
@@ -41,8 +45,15 @@ header img {
 }
 
 .titulo {
-    margin-right: 500px;
-    margin-top: 1.5rem;
+    display: grid;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.sua_casa {
+    display: grid;
+    width: 100%;
 }
 
 .tema {
@@ -50,93 +61,93 @@ header img {
     display: flex;
 }
 
+.secao1 {
+    display: grid;
+    width: 100%;
+}
+
 .subtitulo {
     color: #006400;
-    margin-left: 5rem;
     font-size: 20px;
+    margin-left: 170px;
 }
 
-.underline {
-    margin-left: 5rem;
+.divisor {
+    width: 64%;
+    height: 2px;
+    margin: 15px 170px;
 }
 
-.paragrafo {
-    font-size: 24px;
-    margin-left: 5rem;
-    margin-top: 2rem;
-    margin-right: 2rem;
+.secao1 p {
+    width: 64%;
+    margin-left: 175px;
+    font-size: 160%;
+    font-weight: 400;
+    
 }
 
-.logo1 {
-    width: 60px;
-    margin-left: 15rem;
-}
-
-.logo2 {
-    width: 50px;
-    margin-left: 24rem;
-}
-
-.logo3 {
-    width: 50px;
-    margin-left: 24rem;
+.secao2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .paragrafo_logo {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    text-align: center;
+    max-width: 200px;
 }
 
-.paragrafo_logo1 {
-    width: 20%;
-    margin-left: 5rem;
-    font-size: 150%;
+.paragrafo_logo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
-.paragrafo_logo2 {
-    width: 20%;
-    font-size: 150%;
-}
-
-.paragrafo_logo3 {
-    width: 20%;
-    font-size: 150%;
+.paragrafo_logo p {
+    font-size: 20px;
+    font-weight: 400;
 }
 
 footer {
     display: flex;
-    height: 200px;
-    background-color: #66cc66;
+    justify-content: space-around;
+    align-items: center;
+    background: #66cc66;
+    color: #000;
+    padding: 30px;
 }
 
-.subtitulo2 {
-    color: #663300;
-    font-size: 20px;
-    margin-top: 5rem;
-    margin-left: 5rem;
-}
-
-.informacoes {
-    color: #663300;
-    width: 20%;
-    font-size: 20px;
-    margin-left: 20rem;
-    margin-top: 4.2rem;
-}
-
-.social {
+.footer-section {
     display: flex;
     align-items: center;
 }
 
-.instagram {
+.footer-section img {
     width: 40px;
-    margin-left: 2rem;
+    height: auto;
+    
 }
 
-.facebook {
-    width: 40px;
-    margin-left: 2rem;
-    margin-bottom: 0.3rem;
+.footer-section:nth-child(1) {
+    font-size: 25px;
+    font-weight: 600;
+    color: #663300;
+}
+
+.footer-section:nth-child(2) {
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.3;
+    width: fit-content;
+    color: #663300;
+}
+
+.footer-section:nth-child(3) {
+    text-align: center;
+    display: flex;
+    gap: 20px;
 }

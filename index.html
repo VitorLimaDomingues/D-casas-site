@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Chamando o CSS externo -->    
     <link rel="stylesheet" href="./src/css/estilo.css">
+    <!-- Colocando ícone na aba do EDGE -->
+    <link rel="icon" href="./src/assets/favicon.ico" type="icon" sizes="32x32">
     <title>D'casas pré-fábricadas</title>
 </head>
 <body>
     <header>
-        <img src="./src/assets/d'casas logo.jpg" alt="">
+        <img src="./src/assets/d'casas logo.jpg" alt="" class="logo_comeco">
         <div class="titulo">
         <h1>D'casas Pré-fabricadas</h1>
         </div>
@@ -36,18 +38,18 @@
         <br>
         <br>
 
+        <section class="secao1">
         <div class="subtitulo">
             <h2>Casas pré-fabricadas a solução que você esperava!</h2>
         </div>
-        <div class="underline">___________________________________________________________________________________________________________________________________________________</div>
-        <div class="paragrafo">
-        <p>
-           As construtoras correm contra o tempo, clientes cada vez mais exigentes procuram uma solução rápida e econômica, mas sem perder o bom gosto e profissionalismo. 
-           A D'casas oferece a melhor alternativa para sua construção, sendo no campo ou na cidade a casa pré-fabricada possuí muitas vantagens, com seu sistema de montagem reduz 
-           o tempo de obra em até 70%, 100m² construímos em apenas 30 dias. Obra limpa sem resíduos ou entulhos valorizando a sustentabilidade, não deixando de respeitar a nossa 
-           natureza.
-        </p>
+        <hr class="divisor">
+        <div>
+            <p>As construtoras correm contra o tempo, clientes cada vez mais exigentes procuram uma solução rápida e econômica, mas sem perder o bom gosto e profissionalismo. 
+            A D'casas oferece a melhor alternativa para sua construção, sendo no campo ou na cidade a casa pré-fabricada possuí muitas vantagens, com seu sistema de montagem reduz 
+            o tempo de obra em até 70%, 100m² construímos em apenas 30 dias. Obra limpa sem resíduos ou entulhos valorizando a sustentabilidade, não deixando de respeitar a nossa 
+            natureza.</p>
         </div>
+        </section>
         
         <br>
         <br>
@@ -55,16 +57,20 @@
         <br>
         <br>
 
-        <section>
-            <img src="./src/assets/casa.png" alt="logo_casa" class="logo1">
-            <img src="./src/assets/relógio.png" alt="logo_relógio" class="logo2">
-            <img src="./src/assets/caneta.png" alt="logo_caneta" class="logo3">
+        <section class="secao2">
+            <div class="paragrafo_logo">
+                <img src="./src/assets/casa.png" alt="Casa">
+                <p>Agilidade na mão de obra, autonomia nos projetos, e desperdício zero.</p>
+            </div>
+            <div class="paragrafo_logo">
+                <img src="./src/assets/relógio.png" alt="Relógio">
+                <p>Com sistema de montagem, 100² entregamos em 30 dias!</p>
+            </div>
+            <div class="paragrafo_logo">
+                <img src="src/assets/caneta.png" alt="Caneta">
+                <p>Arquiteto á disposição para fazer o planejamento do seu projeto.</p>
+            </div>
         </section>
-        <div class="paragrafo_logo">
-            <span class="paragrafo_logo1">Agilidade na mão de obra, autonomia nos projetos, e desperdício zero.</span>
-            <span class="paragrafo_logo2">Com sistema de montagem, 100m² entregamos em 30 dias!</span>
-            <span class="paragrafo_logo3">Arquiteto à disposição para fazer o planejamento do seu projeto.</span>
-        </div>
         <br>
     </main>
     
@@ -72,22 +78,22 @@
     <hr>
 
     <footer>
-        <div class="subtitulo2">
-        <h2>Venha conhecer nosso showroom!</h2>
+        <div class="footer-section">
+            <p>Venha conhecer nosso showroom!</p>
         </div>
-        <span class="informacoes">Rua Joaquim Rodrigues dos Santos, 1094 Bom Jesus dos Perdões - SP CEP 12955-000</span>
-        <section class="social">
+        <div class="footer-section">
+            <p>Rua Joaquim Rodrigues dos Santos, 1094 <br> Bom Jesus dos Perdões - SP <br> CEP 12955-000</p>
+        </div>
+        <div class="footer-section">
+            <!-- Ícones das rede sociais instagram e facebook -->
             <a href="https://www.instagram.com/seusonhodcasas/" target="_blank">
-                <img src="./src/assets/SkillIconsInstagram.png" alt="" class="instagram">
+                <img src="./src/assets/SkillIconsInstagram.png" alt="Instagram">
             </a>
-            <a href="https://www.facebook.com/seusonhodcasas" target="_blank">
-            <img src="./src/assets/DeviconFacebook.png" alt="" class="facebook">
-            </a>
-        </section>
+             <a href="https://www.facebook.com/seusonhodcasas" target="_blank">
+                <img src="./src/assets/DeviconFacebook.png" alt="Faceboo">
+             </a>
+        </div>
     </footer>
-
-    
-
 
     <!-- Chamando o JavaScript externo -->
      <script src="./src/js/script.js"></script>
