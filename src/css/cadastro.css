@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 1920px) {
+
+    body {
+        font-size: 14.6px;
+        background-color: #f8f8ff;
+        }
+    }
+
 body {
     background: #3cb371;
     display: flex;
