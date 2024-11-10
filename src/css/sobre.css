@@ -51,18 +51,15 @@ header img {
     margin-top: 40px;
 }
 
-main {
-    display: grid;
-}
-
 main h1 {
     display: flex;
     color: #006400;
     justify-content: center;
     margin-top: 5%;
+    font-size: 300%;
 }
 
-main hr {
+.hr {
     display: flex;
     justify-content: center;
     width: 80%;
@@ -73,12 +70,10 @@ main hr {
 main img {
     display: grid;
     width: 4%;
-    gap: ;
 }
 
 section {
     display: grid;
-    gap: 20%;
 }
 
 .secao {
@@ -95,6 +90,50 @@ section {
 }
 
 .informacoes {
-    display: grid;
-    font-size: 160%;
+    font-size: 150%;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    color: #006400;
+    font-size: 200%;
+}
+
+.slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+    text-align: left;
+    width: 80%;
+    position: relative;
+}
+
+.slideshow img {
+    width: 200px;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border: 5px solid #006400;
+    border-radius: 10px;
+    transition: opacity 1s ease-in-out;
+
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    transition: opacity 1s ease-in-out;
+}
+
+.slideshow h3 {
+    font-size: 1.5em;
+}
+
+.slideshow .descricao {
+    font-size: 1.2em;
+    width: 100%;
+    font-size: 170%;
 }
