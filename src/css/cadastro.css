@@ -14,7 +14,7 @@
 
 body {
     background: #3cb371;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -25,6 +25,20 @@ body {
     background: #ffff00;
     border: 2px solid #808080;
     border-radius: 10px;
+    margin-bottom: 50%;
+}
+
+.logo {
+    display: block;
+    margin: 0;
+    width: 70%;
+    background: #fff;
+    border: solid #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0px auto;
+    margin-left: 70px;
+    height: auto;
 }
 
 header h1 {
